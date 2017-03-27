@@ -13,9 +13,10 @@ public class TestClassLoader {
 //            classLoader = classLoader.getParent();
 //        }
         String scanPackage = "com.ych";
-       URL url= TestClassLoader.class.getClassLoader().getResource("/com/ych");
-        String path = url.getFile();
-        System.out.println(path);
+//       URL url= TestClassLoader.class.getClassLoader().getResource("/com/ych");
+//        String path = url.getFile();
+        System.out.println(scanPackage);
+        Person person = new Person();
     }
 
     private static String convertPath(String path){
