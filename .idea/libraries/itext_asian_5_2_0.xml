@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="itext-asian-5.2.0">
+    <CLASSES>
+      <root url="jar://D:/Maven/Maven3.2.2/local/repo/com/itextpdf/itext-asian/5.2.0/itext-asian-5.2.0.jar!/" />
+      <root url="jar://D:/Maven/Maven3.2.2/local/repo/com/itextpdf/itextpdf/5.5.6/itextpdf-5.5.6.jar!/" />
+      <root url="jar://D:/Maven/Maven3.2.2/local/repo/net/sf/jacob-project/jacob/1.14.3/jacob-1.14.3.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/dr-base-067.jar!/" />
+      <root url="jar://D:/Maven/Maven3.2.2/local/repo/joda-time/joda-time/2.9/joda-time-2.9.jar!/" />
+      <root url="jar://D:/Maven/Maven3.2.2/local/repo/com/rabbitmq/amqp-client/4.0.1/amqp-client-4.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="jar://D:/Maven/Maven3.2.2/local/repo/com/itextpdf/itext-asian/5.2.0/itext-asian-5.2.0.jar!/" recursive="false" />
+  </library>
+</component>
