@@ -16,10 +16,10 @@ public class Send {
     Connection connection = cf.newConnection();
     Channel channel = connection.createChannel();
     channel.queueDeclare(QUEUE_NAME, false, false, false, null);
-
-    String message = "hello world";
-    channel.basicPublish("", QUEUE_NAME, null, message.getBytes());
-
+    for(int i = 1; i <=10; i++){
+      String message = "hello world" + i;
+      channel.basicPublish("", QUEUE_NAME, null, message.getBytes());
+    }
     channel.close();
     connection.close();
 

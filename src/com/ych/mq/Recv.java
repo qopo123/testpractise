@@ -27,6 +27,11 @@ public class Recv {
           throws IOException {
         String message = new String(body, "UTF-8");
         System.out.println(" [x] Received '" + message + "'");
+        try {
+          Thread.sleep(5000);
+        } catch (InterruptedException e) {
+          e.printStackTrace();
+        }
       }
     };
     channel.basicConsume(QUEUE_NAME, true, consumer);

@@ -8,4 +8,9 @@ import java.util.ArrayList;
  */
 public class Student implements Serializable{
 
+    private String username;
+
+    private String  code;
+
+    private String 
 }

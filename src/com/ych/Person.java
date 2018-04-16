@@ -26,4 +26,11 @@ public class Person implements Serializable{
   public void setAge(int age) {
     this.age = age;
   }
+
+  public static void main(String[] args) {
+    Integer i = 1 >>> 3;
+    String str = Integer.toOctalString(i);
+    System.out.println(str);
+    System.out.println(i);
+  }
 }
